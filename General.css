@@ -56,7 +56,7 @@ header{
 }
 .navbar ul a:hover{
     color: white;
-    background-color: rgb(94, 94, 91);
+    background-color: rgb(94,94,91);
     border-radius: 55px;
 }
 .navbar h1 {
