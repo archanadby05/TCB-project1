@@ -1,0 +1,157 @@
+html {
+    background-color: black;
+    color: lawngreen;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lawngreen;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+form {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.rNl8ZTS6dRs5EhGoNoCHqAHaEK&pid=Api&P=0);
+    background-size: cover;
+    padding: 20px 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    margin: 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+
+    color: lime;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    box-shadow: 30px lime;
+}
+
+.fields {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: transparent;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.header {
+    display: flex;
+    height: 200px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 63px;
+    color: gold;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    align-content: center;
+    align-items: center;
+    color: gold;
+    font-size: 23px;
+}
+
+.mainhead {
+    color: beige;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    font-size: 63px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.banner {
+    padding: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA4VPvMrSUwiCkA5rfDnS13k_qjTi1IflFpw&usqp=CAU);
+    background-size: cover;
+}
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+button {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #095484;
+    font-size: 15px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0666a3;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    right: 1%;
+    z-index: 2;
+    color: aliceblue;
+    background-color: aliceblue;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+hr {
+    background-color: lime;
+    height: 6px;
+}
+
+.underline {
+    height: 2px;
+}
+
+input {
+    background: transparent;
+    margin: 13px 10px;
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 10PX;
+    width: 20%;
+}
+
+.radio,
+.option{
+    width: 10px;
+    font-size: 13px;
+    color: lightgreen;
+}
+textarea{
+    display: flex;
+}
+.opt{
+    color: lawngreen;
+}
